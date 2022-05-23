@@ -3,17 +3,17 @@
     {
       "id": 0,
       "config": "app_name",
-      "value_prod": "Fortune Teller"
+      "value_prod": "Fortune Master"
     },
     {
       "id": 1,
       "config": "database_revision",
-      "value_prod": "0.0.8.16062021"
+      "value_prod": "1.0.1.29062021"
     },
     {
       "id": 2,
       "config": "project_code",
-      "value_prod": "FT"
+      "value_prod": "FM"
     },
     {
       "id": 3,
@@ -23,17 +23,17 @@
     {
       "id": 4,
       "config": "build_version",
-      "value_prod": "2.2.0"
+      "value_prod": "0.0.1"
     },
     {
       "id": 5,
       "config": "build_number",
-      "value_prod": 201
+      "value_prod": 1
     },
     {
       "id": 6,
       "config": "build_revision",
-      "value_prod": "0.0.8.16062021"
+      "value_prod": "1.0.1.29062021"
     },
     {
       "id": 7,
@@ -118,538 +118,1162 @@
     {
       "id": 23,
       "config": "use_ranges",
-      "value_prod": false
+      "value_prod": true
     },
     {
       "id": 24,
-      "config": "range_text",
-      "value_prod": "0-80"
+      "config": "content_ranges",
+      "value_prod": "0-70/71-85/86-100"
     },
     {
       "id": 25,
-      "config": "range_reward",
-      "value_prod": "81-90"
+      "config": "range_text",
+      "value_prod": "0-70"
     },
     {
       "id": 26,
-      "config": "range_choice",
-      "value_prod": "91-100"
+      "config": "range_reward",
+      "value_prod": "71-85"
     },
     {
       "id": 27,
+      "config": "range_choice",
+      "value_prod": "86-100"
+    },
+    {
+      "id": 28,
       "config": "inactivity_hours_pn",
       "value_prod": 24
     },
     {
-      "id": 28,
+      "id": 29,
       "config": "minigames_level_req",
       "value_prod": false
     },
     {
-      "id": 29,
+      "id": 30,
       "config": "collections_enabled",
       "value_prod": true
     },
     {
-      "id": 30,
-      "config": "_coll_sets_database",
-      "value_prod": "Coll_Sets"
-    },
-    {
       "id": 31,
-      "config": "_rarities_database",
-      "value_prod": "Rarities"
-    },
-    {
-      "id": 32,
-      "config": "_store_tabs_database",
-      "value_prod": "Store_Tabs"
-    },
-    {
-      "id": 33,
-      "config": "_store_listings_database",
-      "value_prod": "Store_Listings"
-    },
-    {
-      "id": 34,
-      "config": "_currency_database",
-      "value_prod": "Currency"
-    },
-    {
-      "id": 35,
-      "config": "_commodities_database",
-      "value_prod": "Commodities"
-    },
-    {
-      "id": 36,
-      "config": "_text_database",
-      "value_prod": "Text"
-    },
-    {
-      "id": 37,
-      "config": "_content_database",
-      "value_prod": "Content"
-    },
-    {
-      "id": 38,
-      "config": "_rewanrd_database",
-      "value_prod": "Reward"
-    },
-    {
-      "id": 39,
-      "config": "_choice_parent_database",
-      "value_prod": "Choice_Parent"
-    },
-    {
-      "id": 40,
-      "config": "_choice_child_database",
-      "value_prod": "Choice_Children"
-    },
-    {
-      "id": 41,
-      "config": "_strings_database",
-      "value_prod": "Strings"
-    },
-    {
-      "id": 42,
-      "config": "_minigames_database",
-      "value_prod": "Minigames"
-    },
-    {
-      "id": 43,
       "config": "bakery_enabled",
       "value_prod": false
     },
     {
-      "id": 44,
+      "id": 32,
       "config": "achievements_enabled",
       "value_prod": false
     },
     {
-      "id": 45,
+      "id": 33,
       "config": "history_enabled",
       "value_prod": false
     },
     {
-      "id": 46,
+      "id": 34,
       "config": "bakery_req_level",
       "value_prod": 10
     },
     {
-      "id": 47,
+      "id": 35,
       "config": "main_scene_name",
       "value_prod": "loginSceneV2"
     },
     {
-      "id": 48,
+      "id": 36,
       "config": "facebook_enabled",
       "value_prod": false
     },
     {
-      "id": 49,
+      "id": 37,
       "config": "google_enabled",
       "value_prod": false
     },
     {
-      "id": 50,
+      "id": 38,
       "config": "notifications_enabled",
       "value_prod": true
     },
     {
-      "id": 51,
+      "id": 39,
       "config": "real_iap_enabled",
       "value_prod": true
     },
     {
-      "id": 52,
+      "id": 40,
       "config": "bot_banners_enabled",
       "value_prod": false
     },
     {
-      "id": 53,
+      "id": 41,
       "config": "minimum_banners",
       "value_prod": 3
     },
     {
-      "id": 54,
+      "id": 42,
       "config": "maximum_banners",
       "value_prod": 3
     },
     {
-      "id": 55,
+      "id": 43,
       "config": "experience_commodity_id",
       "value_prod": 14
     },
     {
-      "id": 56,
+      "id": 44,
       "config": "choice_wrong_watch_ad",
       "value_prod": true
     },
     {
-      "id": 57,
+      "id": 45,
       "config": "footer_v2",
-      "value_prod": false
+      "value_prod": true
     },
     {
-      "id": 58,
+      "id": 46,
       "config": "gift_grab_total_levels",
       "value_prod": 10
     },
     {
-      "id": 59,
+      "id": 47,
       "config": "use_real_ads",
       "value_prod": true
     },
     {
-      "id": 60,
+      "id": 48,
       "config": "use_cached_database_",
       "value_prod": true
     },
     {
-      "id": 61,
+      "id": 49,
       "config": "enabled_interstitials",
       "value_prod": true
     },
     {
-      "id": 62,
+      "id": 50,
       "config": "interstitial_cookies",
       "value_prod": 20
     },
     {
-      "id": 63,
+      "id": 51,
       "config": "gift_grab_jackpot_multiplier",
       "value_prod": 2
     },
     {
-      "id": 64,
+      "id": 52,
       "config": "load_online_database",
       "value_prod": true
     },
     {
-      "id": 65,
+      "id": 53,
       "config": "database_selector",
       "value_prod": "local"
     },
     {
-      "id": 66,
+      "id": 54,
       "config": "environment_name",
       "value_prod": "Production"
     },
     {
-      "id": 67,
+      "id": 55,
       "config": "firebase_active",
       "value_prod": true
     },
     {
-      "id": 68,
+      "id": 56,
       "config": "max_level",
-      "value_prod": 10
+      "value_prod": 40
     },
     {
-      "id": 69,
+      "id": 57,
       "config": "refer_a_friend_enabled",
       "value_prod": true
     },
     {
-      "id": 70,
+      "id": 58,
       "config": "bots_enabled",
       "value_prod": true
     },
     {
-      "id": 71,
+      "id": 59,
       "config": "fb_app_id",
       "value_prod": 238111127776915
     },
     {
-      "id": 72,
+      "id": 60,
       "config": "allow_override_from_editor",
       "value_prod": true
     },
     {
-      "id": 73,
+      "id": 61,
       "config": "ads_enabled",
       "value_prod": true
     },
     {
-      "id": 74,
+      "id": 62,
       "config": "boosts_enabled",
       "value_prod": true
     },
     {
-      "id": 75,
+      "id": 63,
       "config": "share_enabled",
       "value_prod": true
+    },
+    {
+      "id": 64,
+      "config": "social_invite_version",
+      "value_prod": 1
+    },
+    {
+      "id": 65,
+      "config": "ads_disabled_on_version",
+      "value_prod": "2.4.0"
+    },
+    {
+      "id": 66,
+      "config": "enable_contact_us_button",
+      "value_prod": false
+    },
+    {
+      "id": 67,
+      "config": "social_invite_enabled",
+      "value_prod": false
+    },
+    {
+      "id": 68,
+      "config": "fortune_leaderboard_bots",
+      "value_prod": false
+    },
+    {
+      "id": 69,
+      "config": "bingo_number_of_calls",
+      "value_prod": 40
+    },
+    {
+      "id": 70,
+      "config": "force_update_enabled",
+      "value_prod": true
+    },
+    {
+      "id": 71,
+      "config": "force_update_id",
+      "value_prod": 0
+    },
+    {
+      "id": 72,
+      "config": "google_play_app_link",
+      "value_prod": "https://play.google.com/store/apps/details?id=org.godotengine.fortuneteller"
+    },
+    {
+      "id": 73,
+      "config": "transition_fade_out_animation_time",
+      "value_prod": "0.5"
+    },
+    {
+      "id": 74,
+      "config": "achievements_leaderboard_enabled",
+      "value_prod": false
+    },
+    {
+      "id": 75,
+      "config": "use_content_weight_override",
+      "value_prod": false
+    },
+    {
+      "id": 76,
+      "config": "animation_speed_multiplier",
+      "value_prod": "0.2"
+    }
+  ],
+  "Seasons": [],
+  "Houses": [
+    {
+      "id": 0,
+      "name": "House of Muffin",
+      "max_users": 2,
+      "logo_link": null,
+      "mascot_id": 0
+    },
+    {
+      "id": 1,
+      "name": "House of Mittens",
+      "max_users": 2,
+      "logo_link": null,
+      "mascot_id": 0
+    }
+  ],
+  "Reward_Calendar": [
+    {
+      "id": 0,
+      "day_id": 0,
+      "reward_id": 0,
+      "reward_value": 1
+    }
+  ],
+  "Scheduled_Events": [
+    {
+      "id": 0,
+      "event_type": null,
+      "entry_id": null,
+      "start_time_unix": null,
+      "end_time_unix": null
+    }
+  ],
+  "Client_Updates": [
+    {
+      "id": 0,
+      "current_version": "0.0.0",
+      "header_text": "Update Required",
+      "body_text": "Please update to the latest version of Fortune Master to gain access to the newest features!",
+      "button_active": true,
+      "button_text": "Update",
+      "button_link": "https://play.google.com/store/apps/details?id=org.godotengine.fortuneteller"
+    }
+  ],
+  "Reserved_Data_Tables": [
+    {
+      "id": 0,
+      "name": "database_prod",
+      "table_id": "js3lV8qrEr7TWVxGFAqp74M8hba2QGsWyk0ozUu7_database_prod",
+      "desc": "test"
+    },
+    {
+      "id": 1,
+      "name": "database_dev",
+      "table_id": "js3lV8qrEr7TWVxGFAqp74M8hba2QGsWyk0ozUu7_database_dev",
+      "desc": "test"
+    },
+    {
+      "id": 2,
+      "name": "reserved_users_list_old",
+      "table_id": "6d61fe85-04f0-4f3e-9fdd-b7549ab00649_list_of_users",
+      "desc": "test"
+    },
+    {
+      "id": 3,
+      "name": "wisdom_matches_list",
+      "table_id": "703fb9bb-40ee-47ee-abad-3df6e561d1d6_wisdom_matches_list",
+      "desc": "test"
+    },
+    {
+      "id": 4,
+      "name": "social_invites_list",
+      "table_id": "0741f8da-0158-4c09-8eb3-743c8d473523_social_invites_list",
+      "desc": "test"
+    },
+    {
+      "id": 5,
+      "name": "database_dev_30_char",
+      "table_id": "js3lV8qrEr7TWV_database_dev",
+      "desc": "test"
+    },
+    {
+      "id": 6,
+      "name": "reserved_users_list",
+      "table_id": "3317a4fc_list_of_users",
+      "desc": "test"
+    },
+    {
+      "id": 7,
+      "name": "database_prod_new",
+      "table_id": "645dba79_database_prod",
+      "desc": "test"
+    },
+    {
+      "id": 8,
+      "name": "database_dev_new",
+      "table_id": "abb7ed49_database_dev",
+      "desc": "test"
+    },
+    {
+      "id": 9,
+      "name": "database_staging_new",
+      "table_id": "703fb9bb_database_staging",
+      "desc": "test"
     }
   ],
   "Boosts": [
     {
       "id": 0,
       "boost_multiplier": "x2",
-      "boost_cost": 50,
+      "boost_cost": 15,
       "cost_com_id": 5,
       "text_range": "0-60",
       "reward_range": "61-80",
       "choice_range": "81-100",
       "active": true,
       "linked_com_id": 15,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 1,
       "boost_multiplier": "x3",
-      "boost_cost": 70,
+      "boost_cost": 20,
       "cost_com_id": 5,
       "text_range": "0-55",
-      "reward_range": "56-75",
-      "choice_range": "76-100",
+      "reward_range": "56-80",
+      "choice_range": "81-100",
       "active": true,
       "linked_com_id": 16,
-      "cookies_applied": 30
+      "cookies_applied": 40,
+      "watch_ad": true
     },
     {
       "id": 2,
       "boost_multiplier": "x4",
-      "boost_cost": 90,
+      "boost_cost": 30,
       "cost_com_id": 5,
       "text_range": "0-50",
-      "reward_range": "51-75",
-      "choice_range": "76-100",
+      "reward_range": "51-80",
+      "choice_range": "81-100",
       "active": true,
       "linked_com_id": 17,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 3,
       "boost_multiplier": "x5",
-      "boost_cost": 120,
+      "boost_cost": 35,
       "cost_com_id": 5,
       "text_range": "0-45",
-      "reward_range": "46-75",
-      "choice_range": "76-100",
+      "reward_range": "46-80",
+      "choice_range": "81-100",
       "active": true,
       "linked_com_id": 18,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 4,
       "boost_multiplier": "x6",
-      "boost_cost": 150,
+      "boost_cost": 40,
       "cost_com_id": 5,
       "text_range": "0-40",
-      "reward_range": "41-75",
-      "choice_range": "76-100",
+      "reward_range": "41-80",
+      "choice_range": "81-100",
       "active": true,
       "linked_com_id": 19,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 5,
       "boost_multiplier": "x7",
-      "boost_cost": 180,
+      "boost_cost": 45,
       "cost_com_id": 5,
       "text_range": "0-35",
-      "reward_range": "36-75",
-      "choice_range": "76-100",
+      "reward_range": "36-80",
+      "choice_range": "81-100",
       "active": true,
       "linked_com_id": 20,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 6,
       "boost_multiplier": "x8",
-      "boost_cost": 200,
+      "boost_cost": 50,
       "cost_com_id": 5,
       "text_range": "0-40",
       "reward_range": "41-75",
-      "choice_range": "76-100",
+      "choice_range": "81-100",
       "active": false,
       "linked_com_id": 19,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 7,
       "boost_multiplier": "x9",
-      "boost_cost": 220,
+      "boost_cost": 55,
       "cost_com_id": 5,
       "text_range": "0-40",
       "reward_range": "41-75",
-      "choice_range": "76-100",
+      "choice_range": "81-100",
       "active": false,
       "linked_com_id": 19,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 8,
       "boost_multiplier": "x10",
-      "boost_cost": 240,
+      "boost_cost": 60,
       "cost_com_id": 5,
       "text_range": "0-40",
       "reward_range": "41-75",
-      "choice_range": "76-100",
+      "choice_range": "81-100",
       "active": false,
       "linked_com_id": 19,
-      "cookies_applied": 30
+      "cookies_applied": 30,
+      "watch_ad": false
     }
   ],
-  "Cryptocurrencies": [
+  "Content_Boosts": [
     {
       "id": 0,
-      "name": "Bitcoin",
-      "initial_value": 1,
-      "history_item_multiplier": 2
-    }
-  ],
-  "Store_Review_Placements": [],
-  "Achievements": [
-    {
-      "id": 0,
-      "name": "Open 10 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 10,
+      "boost_multiplier": "x2",
+      "boost_cost": 10,
+      "cost_com_id": 5,
+      "content_weights": "0-60",
       "active": true,
-      "level_to_reach": null
+      "linked_com_id": 15,
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 1,
-      "name": "Open 50 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 50,
+      "boost_multiplier": "x3",
+      "boost_cost": 15,
+      "cost_com_id": 5,
+      "content_weights": "0-55",
       "active": true,
-      "level_to_reach": null
+      "linked_com_id": 16,
+      "cookies_applied": 40,
+      "watch_ad": true
     },
     {
       "id": 2,
-      "name": "Open 100 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 100,
+      "boost_multiplier": "x4",
+      "boost_cost": 20,
+      "cost_com_id": 5,
+      "content_weights": "0-50",
       "active": true,
-      "level_to_reach": null
+      "linked_com_id": 17,
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 3,
-      "name": "Open 500 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 500,
+      "boost_multiplier": "x5",
+      "boost_cost": 25,
+      "cost_com_id": 5,
+      "content_weights": "0-45",
       "active": true,
-      "level_to_reach": null
+      "linked_com_id": 18,
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 4,
-      "name": "Open 1000 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 1000,
+      "boost_multiplier": "x6",
+      "boost_cost": 30,
+      "cost_com_id": 5,
+      "content_weights": "0-40",
       "active": true,
-      "level_to_reach": null
+      "linked_com_id": 19,
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 5,
-      "name": "Open 2500 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 2500,
+      "boost_multiplier": "x7",
+      "boost_cost": 35,
+      "cost_com_id": 5,
+      "content_weights": "0-35",
       "active": true,
-      "level_to_reach": null
+      "linked_com_id": 20,
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 6,
-      "name": "Open 5000 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 5000,
-      "active": true,
-      "level_to_reach": null
+      "boost_multiplier": "x8",
+      "boost_cost": 40,
+      "cost_com_id": 5,
+      "content_weights": "0-40",
+      "active": false,
+      "linked_com_id": 19,
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 7,
-      "name": "Open 7500 Cookies",
-      "desc": "test",
-      "type": "COUNT_COMMODITY",
-      "req_com_id": 0,
-      "req_com_value": 7500,
-      "active": true,
-      "level_to_reach": null
+      "boost_multiplier": "x9",
+      "boost_cost": 45,
+      "cost_com_id": 5,
+      "content_weights": "0-40",
+      "active": false,
+      "linked_com_id": 19,
+      "cookies_applied": 30,
+      "watch_ad": false
     },
     {
       "id": 8,
-      "name": "Open 10000 Cookies",
+      "boost_multiplier": "x10",
+      "boost_cost": 50,
+      "cost_com_id": 5,
+      "content_weights": "0-40",
+      "active": false,
+      "linked_com_id": 19,
+      "cookies_applied": 30,
+      "watch_ad": false
+    }
+  ],
+  "Achievements": [
+    {
+      "id": 0,
+      "name": "Open Your First Cookie",
       "desc": "test",
-      "type": "COUNT_COMMODITY",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
       "req_com_id": 0,
-      "req_com_value": 10000,
+      "req_com_value": 1,
+      "active_level_req": 1,
       "active": true,
-      "level_to_reach": null
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 1,
+      "name": "Open 5 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 5,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 50
+    },
+    {
+      "id": 2,
+      "name": "Open 10 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 10,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 100
+    },
+    {
+      "id": 3,
+      "name": "Open 25 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 25,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 250
+    },
+    {
+      "id": 4,
+      "name": "Open 50 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 50,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 500
+    },
+    {
+      "id": 5,
+      "name": "Open 75 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 75,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 750
+    },
+    {
+      "id": 6,
+      "name": "Open 100 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 100,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 50
+    },
+    {
+      "id": 7,
+      "name": "Open 500 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 500,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 400
+    },
+    {
+      "id": 8,
+      "name": "Open 1000 Cookies",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 1000,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 600
     },
     {
       "id": 9,
-      "name": "Reach level 10",
+      "name": "Open 2500 Cookies",
       "desc": "test",
-      "type": "GET_USER_LEVEL",
-      "req_com_id": null,
-      "req_com_value": null,
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 2500,
+      "active_level_req": 1,
       "active": true,
-      "level_to_reach": 10
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 1500
     },
     {
       "id": 10,
-      "name": "Reach level 20",
+      "name": "Open 5000 Cookies",
       "desc": "test",
-      "type": "GET_USER_LEVEL",
-      "req_com_id": null,
-      "req_com_value": null,
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 5000,
+      "active_level_req": 1,
       "active": true,
-      "level_to_reach": 20
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 2500
     },
     {
       "id": 11,
-      "name": "Reach level 30",
+      "name": "Open 7500 Cookies",
       "desc": "test",
-      "type": "GET_USER_LEVEL",
-      "req_com_id": null,
-      "req_com_value": null,
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 7500,
+      "active_level_req": 1,
       "active": true,
-      "level_to_reach": 30
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 2500
     },
     {
       "id": 12,
-      "name": "Reach level 40",
+      "name": "Open 10000 Cookies",
       "desc": "test",
-      "type": "GET_USER_LEVEL",
-      "req_com_id": null,
-      "req_com_value": null,
+      "type": "LOAD_STATS",
+      "stat_name": "stats_cookies_opened",
+      "req_com_id": 0,
+      "req_com_value": 10000,
+      "active_level_req": 1,
       "active": true,
-      "level_to_reach": 40
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 2500
     },
     {
       "id": 13,
-      "name": "Reach level 50",
+      "name": "Reach Level 2",
       "desc": "test",
       "type": "GET_USER_LEVEL",
+      "stat_name": null,
       "req_com_id": null,
       "req_com_value": null,
+      "active_level_req": 1,
       "active": true,
-      "level_to_reach": 50
+      "level_to_reach": 2,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
     },
     {
       "id": 14,
-      "name": "Reach level 60",
+      "name": "Reach Level 4",
       "desc": "test",
       "type": "GET_USER_LEVEL",
+      "stat_name": null,
       "req_com_id": null,
       "req_com_value": null,
+      "active_level_req": 1,
       "active": true,
-      "level_to_reach": 60
+      "level_to_reach": 4,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 15,
+      "name": "Reach Level 6",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 6,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 16,
+      "name": "Reach Level 8",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 8,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 17,
+      "name": "Reach Level 10",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 10,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 500
+    },
+    {
+      "id": 18,
+      "name": "Reach Level 12",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 12,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 19,
+      "name": "Reach Level 14",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 14,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 20,
+      "name": "Reach Level 16",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 16,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 21,
+      "name": "Reach Level 18",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 18,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 22,
+      "name": "Reach Level 20",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 20,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 1000
+    },
+    {
+      "id": 23,
+      "name": "Reach Level 30",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 30,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 2000
+    },
+    {
+      "id": 24,
+      "name": "Reach Level 40",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 40,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 3000
+    },
+    {
+      "id": 25,
+      "name": "Reach Level 50",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 50,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 4000
+    },
+    {
+      "id": 26,
+      "name": "Reach Level 60",
+      "desc": "test",
+      "type": "GET_USER_LEVEL",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": 60,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 5000
+    },
+    {
+      "id": 27,
+      "name": "Change your Username",
+      "desc": "test",
+      "type": "MISC_TICKER",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": false,
+      "level_to_reach": null,
+      "misc_ticker_config": "username_changed",
+      "misc_ticker_type": "type_bool",
+      "misc_ticker_value": true,
+      "hide_progress_bar": true,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 28,
+      "name": "Make Your First Purchase",
+      "desc": "test",
+      "type": "MISC_TICKER",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": "first_purchase_made",
+      "misc_ticker_type": "type_bool",
+      "misc_ticker_value": true,
+      "hide_progress_bar": true,
+      "achv_points_reward": 15
+    },
+    {
+      "id": 29,
+      "name": "Complete All Levels Of Gift Grab",
+      "desc": "test",
+      "type": "MISC_TICKER",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": "gg_compled_without_bust",
+      "misc_ticker_type": "type_bool",
+      "misc_ticker_value": true,
+      "hide_progress_bar": true,
+      "achv_points_reward": 50
+    },
+    {
+      "id": 30,
+      "name": "Answer To Your First Question",
+      "desc": "test",
+      "type": "MISC_TICKER",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": "first_question_answered",
+      "misc_ticker_type": "type_bool",
+      "misc_ticker_value": true,
+      "hide_progress_bar": true,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 31,
+      "name": "Answer Correctly To 5 Questions",
+      "desc": "test",
+      "type": "MISC_TICKER",
+      "stat_name": null,
+      "req_com_id": null,
+      "req_com_value": null,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": "questions_answered_count",
+      "misc_ticker_type": "type_int",
+      "misc_ticker_value": 5,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
+    },
+    {
+      "id": 32,
+      "name": "Receive Coins From Cookies 5 Times",
+      "desc": "test",
+      "type": "LOAD_STATS",
+      "stat_name": "stats_coins_received_from_cookies",
+      "req_com_id": 5,
+      "req_com_value": 5,
+      "active_level_req": 1,
+      "active": true,
+      "level_to_reach": null,
+      "misc_ticker_config": null,
+      "misc_ticker_type": null,
+      "misc_ticker_value": null,
+      "hide_progress_bar": false,
+      "achv_points_reward": 10
     }
   ],
   "Quests": [
@@ -791,6 +1415,22 @@
       "type_id": null,
       "type": null,
       "value": null
+    },
+    {
+      "id": 5,
+      "topic_name": "Logged_In",
+      "expression_type": "logged_in",
+      "type_id": null,
+      "type": null,
+      "value": null
+    },
+    {
+      "id": 6,
+      "topic_name": "Not_Logged_In",
+      "expression_type": "not_logged_in",
+      "type_id": null,
+      "type": null,
+      "value": null
     }
   ],
   "Bots_Profiles": [
@@ -835,6 +1475,7 @@
   "Ads": [
     {
       "id": 0,
+      "ad_provider": "admob",
       "scene_name": "mainLobby",
       "ad_unit_name": "1 Fortune",
       "ad_format": "Rewarded",
@@ -843,6 +1484,7 @@
     },
     {
       "id": 1,
+      "ad_provider": "admob",
       "scene_name": "mainLobby",
       "ad_unit_name": "1 Fortune",
       "ad_format": "Rewarded",
@@ -851,6 +1493,7 @@
     },
     {
       "id": 2,
+      "ad_provider": "admob",
       "scene_name": "build_the_message",
       "ad_unit_name": "3 Moves",
       "ad_format": "Rewarded",
@@ -859,6 +1502,7 @@
     },
     {
       "id": 3,
+      "ad_provider": "admob",
       "scene_name": "build_the_message",
       "ad_unit_name": "3 Moves",
       "ad_format": "Rewarded",
@@ -867,6 +1511,7 @@
     },
     {
       "id": 4,
+      "ad_provider": "admob",
       "scene_name": "storeScene",
       "ad_unit_name": "20 Cookies",
       "ad_format": "Rewarded",
@@ -875,6 +1520,7 @@
     },
     {
       "id": 5,
+      "ad_provider": "admob",
       "scene_name": "storeScene",
       "ad_unit_name": "20 Cookies",
       "ad_format": "Rewarded",
@@ -883,6 +1529,7 @@
     },
     {
       "id": 6,
+      "ad_provider": "admob",
       "scene_name": "mainLobby",
       "ad_unit_name": "15 Cookies Interstitial",
       "ad_format": "Interstitial",
@@ -891,6 +1538,7 @@
     },
     {
       "id": 7,
+      "ad_provider": "admob",
       "scene_name": "mainLobby",
       "ad_unit_name": "15 Cookies Interstitial",
       "ad_format": "Interstitial",
@@ -941,7 +1589,7 @@
       "priority": 0,
       "parent_name": null,
       "has_text": null,
-      "text": "Welcome to Fortune Cookie!",
+      "text": "Welcome to Fortune Master!",
       "mascot_id": 0,
       "replace_bool": false,
       "replaced_word": null,
@@ -1006,25 +1654,40 @@
       "id": 0,
       "name": "Muffin",
       "image": null,
-      "screen_side": "left"
+      "screen_side": "left",
+      "storyline_id": 0
     },
     {
       "id": 1,
       "name": "Cupcake",
       "image": null,
-      "screen_side": "left"
+      "screen_side": "left",
+      "storyline_id": 0
     },
     {
       "id": 2,
       "name": "Mittens",
       "image": null,
-      "screen_side": "left"
+      "screen_side": "left",
+      "storyline_id": 0
     },
     {
       "id": 3,
       "name": "Pericle",
       "image": null,
-      "screen_side": "left"
+      "screen_side": "left",
+      "storyline_id": 0
+    }
+  ],
+  "Storylines": [],
+  "Storyline_Steps": [
+    {
+      "id": 0,
+      "story_id": 0,
+      "step_id": 0,
+      "text": "Test",
+      "quest_id": 0,
+      "rewards": "0-5,5-5"
     }
   ],
   "Animal_Name_List": [
@@ -1628,30 +2291,39 @@
   "AB_Tests": [
     {
       "id": 0,
-      "name": "Content Ranges"
+      "type": null,
+      "feature": null,
+      "name": "Content Ranges",
+      "active": true,
+      "scheduled": false,
+      "start_time": 0,
+      "end_time": 0
     }
   ],
   "AB_Variants": [
     {
       "id": 0,
+      "ab_test_id": 0,
       "name": "Range Text",
-      "parent_id": 0,
-      "config_id": 22,
-      "config_value": "1-80"
+      "type": 0,
+      "game_config_name": 22,
+      "game_config_value": null
     },
     {
       "id": 1,
+      "ab_test_id": 0,
       "name": "Range Reward",
-      "parent_id": 0,
-      "config_id": 23,
-      "config_value": "81-90"
+      "type": 0,
+      "game_config_name": 23,
+      "game_config_value": null
     },
     {
       "id": 2,
+      "ab_test_id": 0,
       "name": "Range Choice",
-      "parent_id": 0,
-      "config_id": 24,
-      "config_value": "91-100"
+      "type": 0,
+      "game_config_name": 24,
+      "game_config_value": null
     }
   ],
   "Coll_Sets": [
@@ -1687,7 +2359,7 @@
     {
       "id": 0,
       "rarity_name": "Common",
-      "rarity_color": "white"
+      "rarity_color": "0-0-0-0"
     },
     {
       "id": 1,
@@ -1717,7 +2389,8 @@
       "deeplink": "test",
       "image": null,
       "effect": "none",
-      "priority": 0
+      "priority": 0,
+      "time_visible_secs": 3
     },
     {
       "id": 1,
@@ -1725,7 +2398,8 @@
       "deeplink": "test",
       "image": null,
       "effect": "none",
-      "priority": 1
+      "priority": 1,
+      "time_visible_secs": 3
     },
     {
       "id": 2,
@@ -1733,7 +2407,8 @@
       "deeplink": "test",
       "image": null,
       "effect": "none",
-      "priority": 2
+      "priority": 2,
+      "time_visible_secs": 3
     },
     {
       "id": 3,
@@ -1741,7 +2416,8 @@
       "deeplink": "test",
       "image": null,
       "effect": "none",
-      "priority": 3
+      "priority": 3,
+      "time_visible_secs": 3
     },
     {
       "id": 3,
@@ -1749,7 +2425,8 @@
       "deeplink": "test",
       "image": null,
       "effect": "none",
-      "priority": 4
+      "priority": 4,
+      "time_visible_secs": 3
     }
   ],
   "Store_Tabs": [
@@ -1809,7 +2486,8 @@
       "env_id": 0,
       "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 1,
@@ -1823,7 +2501,8 @@
       "env_id": 0,
       "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 2,
@@ -1837,7 +2516,8 @@
       "env_id": 0,
       "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 3,
@@ -1851,7 +2531,8 @@
       "env_id": 0,
       "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 4,
@@ -1865,7 +2546,8 @@
       "env_id": 0,
       "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 5,
@@ -1879,7 +2561,8 @@
       "env_id": 0,
       "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 6,
@@ -1893,7 +2576,8 @@
       "env_id": 0,
       "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 7,
@@ -1907,7 +2591,8 @@
       "env_id": 0,
       "active": true,
       "is_consumable": true,
-      "badge_id": 2
+      "badge_id": 2,
+      "watch_ad": false
     },
     {
       "id": 8,
@@ -1921,7 +2606,8 @@
       "env_id": 0,
       "active": true,
       "is_consumable": true,
-      "badge_id": 1
+      "badge_id": 1,
+      "watch_ad": false
     },
     {
       "id": 9,
@@ -1935,7 +2621,8 @@
       "env_id": 0,
       "active": true,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 10,
@@ -1949,10 +2636,26 @@
       "env_id": 0,
       "active": true,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
       "id": 11,
+      "name": "Handful of Cookies",
+      "tab_id": 0,
+      "commodity_id": 0,
+      "value": 12,
+      "price_point": 13,
+      "currency_id": 0,
+      "sku_id": null,
+      "env_id": 0,
+      "active": true,
+      "is_consumable": true,
+      "badge_id": 0,
+      "watch_ad": true
+    },
+    {
+      "id": 12,
       "name": "Some Cookies",
       "tab_id": 0,
       "commodity_id": 0,
@@ -1963,10 +2666,11 @@
       "env_id": 0,
       "active": true,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "Few Cookies",
       "tab_id": 0,
       "commodity_id": 0,
@@ -1977,10 +2681,11 @@
       "env_id": 0,
       "active": true,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "Cookies",
       "tab_id": 0,
       "commodity_id": 0,
@@ -1991,10 +2696,11 @@
       "env_id": 0,
       "active": true,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "A ton of Cookies",
       "tab_id": 0,
       "commodity_id": 0,
@@ -2003,9 +2709,10 @@
       "currency_id": 1,
       "sku_id": "com.cookie.low",
       "env_id": 0,
-      "active": true,
+      "active": false,
       "is_consumable": true,
-      "badge_id": 0
+      "badge_id": 0,
+      "watch_ad": false
     }
   ],
   "Store_Badges": [
@@ -2075,265 +2782,388 @@
       "id": 0,
       "name": "Cookies",
       "desc": "test",
+      "type": "Currency",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": "Assets/UI/cookie_icon.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 20,
+      "recharge_time_seconds": 0
     },
     {
       "id": 1,
       "name": "Stars",
       "desc": "test",
+      "type": "Currency",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": "Assets/UI/star_icon.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 2,
       "name": "Red Stone",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 0,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/Stones/1/00.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 3,
       "name": "Red Ball",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 1,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/ChristmasBals/01.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 4,
       "name": "Test3",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 2,
       "rarity": 0,
       "active": true,
       "image": "Assets/UI/coin_icon.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 5,
       "name": "Coins",
       "desc": "test",
+      "type": "Currency",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": "Assets/UI/coin_icon.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 6,
       "name": "Green Stone",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 0,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/Stones/1/04.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 7,
       "name": "Blue Stone",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 0,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/Stones/1/12.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 8,
       "name": "Purple Stone",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 0,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/Stones/1/10.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 9,
       "name": "Yellow Stone",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 0,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/Stones/1/02.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 10,
       "name": "Green Ball",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 1,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/ChristmasBals/08.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 11,
       "name": "Blue Ball",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 1,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/ChristmasBals/06.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 12,
       "name": "Purple Ball",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 1,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/ChristmasBals/14.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 13,
       "name": "Yellow Ball",
       "desc": "test",
+      "type": "Collectible",
       "collectible": true,
       "set_id": 1,
       "rarity": 0,
       "active": true,
       "image": "Assets/Sets/ChristmasBals/04.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 14,
       "name": "Fortune",
       "desc": "test",
+      "type": "Currency",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": "Assets/UI/fortune_icon.png",
       "soft_capped": false,
-      "limit": 5
+      "limit": 5,
+      "recharge_time_seconds": 0
     },
     {
       "id": 15,
       "name": "Boost x2",
       "desc": "test",
+      "type": "Content_Boost",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": null,
       "soft_capped": true,
-      "limit": 1
+      "limit": 1,
+      "recharge_time_seconds": 0
     },
     {
       "id": 16,
       "name": "Boost x3",
       "desc": "test",
+      "type": "Content_Boost",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": null,
       "soft_capped": true,
-      "limit": 1
+      "limit": 1,
+      "recharge_time_seconds": 0
     },
     {
       "id": 17,
       "name": "Boost x4",
       "desc": "test",
+      "type": "Content_Boost",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": null,
       "soft_capped": true,
-      "limit": 1
+      "limit": 1,
+      "recharge_time_seconds": 0
     },
     {
       "id": 18,
       "name": "Boost x5",
       "desc": "test",
+      "type": "Content_Boost",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": null,
       "soft_capped": true,
-      "limit": 1
+      "limit": 1,
+      "recharge_time_seconds": 0
     },
     {
       "id": 19,
       "name": "Boost x6",
       "desc": "test",
+      "type": "Content_Boost",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": null,
       "soft_capped": true,
-      "limit": 1
+      "limit": 1,
+      "recharge_time_seconds": 0
     },
     {
       "id": 20,
       "name": "Boost x7",
       "desc": "test",
+      "type": "Content_Boost",
       "collectible": false,
       "set_id": null,
       "rarity": null,
       "active": true,
       "image": null,
       "soft_capped": true,
-      "limit": 1
+      "limit": 1,
+      "recharge_time_seconds": 0
+    },
+    {
+      "id": 21,
+      "name": "Milk",
+      "desc": "test",
+      "type": "Collectible",
+      "collectible": true,
+      "set_id": null,
+      "rarity": null,
+      "active": true,
+      "image": "Assets/New/milk1.png",
+      "soft_capped": false,
+      "limit": 1,
+      "recharge_time_seconds": 0
+    },
+    {
+      "id": 22,
+      "name": "Flour",
+      "desc": "test",
+      "type": "Collectible",
+      "collectible": true,
+      "set_id": null,
+      "rarity": null,
+      "active": true,
+      "image": "Assets/New/flour.png",
+      "soft_capped": false,
+      "limit": 1,
+      "recharge_time_seconds": 0
+    },
+    {
+      "id": 23,
+      "name": "Chocolate",
+      "desc": "test",
+      "type": "Collectible",
+      "collectible": true,
+      "set_id": null,
+      "rarity": null,
+      "active": true,
+      "image": "Assets/New/choco.png",
+      "soft_capped": false,
+      "limit": 1,
+      "recharge_time_seconds": 0
     }
   ],
   "Interstitials": [
     {
       "id": 0,
-      "type": "OK",
+      "placement": "APP_ACTIVE",
+      "type": "NATIVE_LARGE",
       "text": null,
       "button1_active": null,
       "button1_text": null,
       "button2_active": null,
       "button2_text": null,
       "background_image": null
+    }
+  ],
+  "Interstitial_Templates": [
+    {
+      "id": 0,
+      "type": "NATIVE_LARGE",
+      "size_x": 320,
+      "size_y": 600,
+      "pos_x": 50,
+      "pos_y": 120,
+      "background_wrapper_image_path": null
+    },
+    {
+      "id": 1,
+      "type": "NATIVE_SMALL",
+      "size_x": 270,
+      "size_y": 340,
+      "pos_x": 75,
+      "pos_y": 250,
+      "background_wrapper_image_path": null
+    },
+    {
+      "id": 2,
+      "type": "RATE_US",
+      "size_x": null,
+      "size_y": null,
+      "pos_x": null,
+      "pos_y": null,
+      "background_wrapper_image_path": null
+    },
+    {
+      "id": 3,
+      "type": "NATIVE_SMALL_WIDE",
+      "size_x": 385,
+      "size_y": 140,
+      "pos_x": 17.5,
+      "pos_y": 350,
+      "background_wrapper_image_path": null
     }
   ],
   "Deeplinks": [
@@ -2373,24 +3203,27 @@
       "type": 1,
       "desc": "Text",
       "active": true,
-      "weight": 100,
-      "level_required": 1
+      "weight": 40,
+      "level_required": 1,
+      "default": true
     },
     {
       "id": 1,
       "type": 2,
       "desc": "Reward",
       "active": true,
-      "weight": 5,
-      "level_required": 1
+      "weight": 30,
+      "level_required": 1,
+      "default": true
     },
     {
       "id": 2,
       "type": 3,
       "desc": "Choice",
       "active": true,
-      "weight": 5,
-      "level_required": 2
+      "weight": 30,
+      "level_required": 1,
+      "default": true
     },
     {
       "id": 3,
@@ -2398,15 +3231,26 @@
       "desc": "Collectible",
       "active": false,
       "weight": 10,
-      "level_required": 2
+      "level_required": 1,
+      "default": true
     },
     {
       "id": 4,
       "type": 5,
-      "desc": "MissingLetter",
+      "desc": "MissingWord",
       "active": false,
       "weight": 10,
-      "level_required": 1
+      "level_required": 1,
+      "default": true
+    },
+    {
+      "id": 5,
+      "type": 6,
+      "desc": "Quote",
+      "active": false,
+      "weight": 40,
+      "level_required": 1,
+      "default": true
     }
   ],
   "Levels": [
@@ -2855,32 +3699,122 @@
   "Reward": [
     {
       "id": 0,
-      "desc": "Coins",
+      "desc": "Coins - Low",
       "text": "Congratulations!!! You have won:",
       "reward_id": 5,
       "value_min": 1,
-      "value_max": 10,
-      "chance_rate": 10,
+      "value_max": 2,
+      "weight": 100,
       "min_fortune": 0
     },
     {
       "id": 1,
-      "desc": "Fortune",
+      "desc": "Fortune - Low",
       "text": "Congratulations!!! You have won:",
       "reward_id": 14,
       "value_min": 1,
-      "value_max": 3,
-      "chance_rate": 10,
+      "value_max": 2,
+      "weight": 100,
       "min_fortune": 0
     },
     {
       "id": 2,
-      "desc": "Cookies",
+      "desc": "Cookies - Low",
       "text": "Congratulations!!! You have won:",
       "reward_id": 0,
       "value_min": 1,
+      "value_max": 2,
+      "weight": 100,
+      "min_fortune": 0
+    },
+    {
+      "id": 3,
+      "desc": "Coins - Medium",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 5,
+      "value_min": 3,
       "value_max": 5,
-      "chance_rate": 10,
+      "weight": 50,
+      "min_fortune": 0
+    },
+    {
+      "id": 4,
+      "desc": "Fortune - Medium",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 14,
+      "value_min": 3,
+      "value_max": 5,
+      "weight": 50,
+      "min_fortune": 0
+    },
+    {
+      "id": 5,
+      "desc": "Cookies - Medium",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 0,
+      "value_min": 3,
+      "value_max": 5,
+      "weight": 50,
+      "min_fortune": 0
+    },
+    {
+      "id": 6,
+      "desc": "Coins - High",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 5,
+      "value_min": 6,
+      "value_max": 10,
+      "weight": 25,
+      "min_fortune": 0
+    },
+    {
+      "id": 7,
+      "desc": "Fortune - High",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 14,
+      "value_min": 6,
+      "value_max": 10,
+      "weight": 25,
+      "min_fortune": 0
+    },
+    {
+      "id": 8,
+      "desc": "Cookies - High",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 0,
+      "value_min": 6,
+      "value_max": 10,
+      "weight": 25,
+      "min_fortune": 0
+    },
+    {
+      "id": 9,
+      "desc": "Milk",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 21,
+      "value_min": 6,
+      "value_max": 10,
+      "weight": 1000,
+      "min_fortune": 0
+    },
+    {
+      "id": 10,
+      "desc": "Flour",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 22,
+      "value_min": 6,
+      "value_max": 10,
+      "weight": 1000,
+      "min_fortune": 0
+    },
+    {
+      "id": 11,
+      "desc": "Chocolate",
+      "text": "Congratulations!!! You have won:",
+      "reward_id": 23,
+      "value_min": 6,
+      "value_max": 10,
+      "weight": 1000,
       "min_fortune": 0
     }
   ],
@@ -4177,9 +5111,18 @@
     {
       "id": 16,
       "name": "Bingo",
-      "active": false,
+      "active": true,
       "directory_prefix": "minigames",
       "scene_name": "bingo",
+      "entry_cost": 10,
+      "entry_commodity": 5
+    },
+    {
+      "id": 17,
+      "name": "Color Blend",
+      "active": true,
+      "directory_prefix": "minigames",
+      "scene_name": "color_blend",
       "entry_cost": 10,
       "entry_commodity": 5
     }
@@ -5033,7 +5976,8 @@
       "text": "A beautiful, smart, and loving person will be coming into your life.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 1,
@@ -5041,7 +5985,8 @@
       "text": "A dubious friend may be an enemy in camouflage.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 2,
@@ -5049,7 +5994,8 @@
       "text": "A faithful friend is a strong defense.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": true
+      "add_to_message_build": true,
+      "wisom": null
     },
     {
       "id": 3,
@@ -5057,7 +6003,8 @@
       "text": "A feather in the hand is better than a bird in the air.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 4,
@@ -5065,7 +6012,8 @@
       "text": "A fresh start will put you on your way.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": true
+      "add_to_message_build": true,
+      "wisom": null
     },
     {
       "id": 5,
@@ -5073,7 +6021,8 @@
       "text": "A friend asks only for your time not your money.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 6,
@@ -5081,7 +6030,8 @@
       "text": "A friend is a present you give yourself.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 7,
@@ -5089,7 +6039,8 @@
       "text": "A gambler not only will lose what he has, but also will lose what he doesn’t have.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 8,
@@ -5097,7 +6048,8 @@
       "text": "A golden egg of opportunity falls into your lap this month.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 9,
@@ -5105,7 +6057,8 @@
       "text": "A good friendship is often more important than a passionate romance.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 10,
@@ -5113,7 +6066,8 @@
       "text": "A good time to finish up old tasks.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 11,
@@ -5121,7 +6075,8 @@
       "text": "A hunch is creativity trying to tell you something.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 12,
@@ -5129,7 +6084,8 @@
       "text": "A lifetime friend shall soon be made.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 13,
@@ -5137,7 +6093,8 @@
       "text": "A lifetime of happiness lies ahead of you.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 14,
@@ -5145,7 +6102,8 @@
       "text": "A light heart carries you through all the hard times.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 15,
@@ -5153,7 +6111,8 @@
       "text": "A new perspective will come with the new year.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 16,
@@ -5161,7 +6120,8 @@
       "text": "A person of words and not deeds is like a garden full of weeds.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 17,
@@ -5169,7 +6129,8 @@
       "text": "A pleasant surprise is waiting for you.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 18,
@@ -5177,7 +6138,8 @@
       "text": "A short pencil is usually better than a long memory any day.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 19,
@@ -5185,7 +6147,8 @@
       "text": "A small donation is call for. It’s the right thing to do.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 20,
@@ -5193,7 +6156,8 @@
       "text": "A smile is your personal welcome mat.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 21,
@@ -5201,7 +6165,8 @@
       "text": "A smooth long journey! Great expectations.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 22,
@@ -5209,7 +6174,8 @@
       "text": "A soft voice may be awfully persuasive.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 23,
@@ -5217,7 +6183,8 @@
       "text": "A truly rich life contains love and art in abundance.",
       "min_fortune": 30,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 24,
@@ -5225,7 +6192,8 @@
       "text": "Accept something that you cannot change, and you will feel better.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 25,
@@ -5233,7 +6201,8 @@
       "text": "Adventure can be real happiness.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 26,
@@ -5241,7 +6210,8 @@
       "text": "Advice is like kissing. It costs nothing and is a pleasant thing to do.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 27,
@@ -5249,7 +6219,8 @@
       "text": "Advice, when most needed, is least heeded.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 28,
@@ -5257,7 +6228,8 @@
       "text": "All the effort you are making will ultimately pay off.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 29,
@@ -5265,7 +6237,8 @@
       "text": "All the troubles you have will pass away very quickly.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 30,
@@ -5273,7 +6246,8 @@
       "text": "All will go well with your new project.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 31,
@@ -5281,7 +6255,8 @@
       "text": "All your hard work will soon pay off.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 32,
@@ -5289,7 +6264,8 @@
       "text": "Allow compassion to guide your decisions.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 33,
@@ -5297,7 +6273,8 @@
       "text": "An acquaintance of the past will affect you in the near future.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 34,
@@ -5305,7 +6282,8 @@
       "text": "An agreeable romance might begin to take on the appearance.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 35,
@@ -5313,7 +6291,8 @@
       "text": "An important person will offer you support.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 36,
@@ -5321,7 +6300,8 @@
       "text": "An inch of time is an inch of gold.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 37,
@@ -5329,7 +6309,8 @@
       "text": "Any decision you have to make tomorrow is a good decision.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 38,
@@ -5337,7 +6318,8 @@
       "text": "At the touch of love, everyone becomes a poet.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 39,
@@ -5345,7 +6327,8 @@
       "text": "Be careful or you could fall for some tricks today.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 40,
@@ -5353,7 +6336,8 @@
       "text": "Beauty in its various forms appeals to you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 41,
@@ -5361,7 +6345,8 @@
       "text": "Because you demand more from yourself, others respect you deeply.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 42,
@@ -5369,7 +6354,8 @@
       "text": "Believe in yourself and others will too.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 43,
@@ -5377,7 +6363,8 @@
       "text": "Believe it can be done.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 44,
@@ -5385,7 +6372,8 @@
       "text": "Better ask twice than lose yourself once.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 45,
@@ -5393,7 +6381,8 @@
       "text": "Bide your time, for success is near.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 46,
@@ -5401,7 +6390,8 @@
       "text": "Carve your name on your heart and not on marble.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 47,
@@ -5409,7 +6399,8 @@
       "text": "Change is happening in your life, so go with the flow!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 48,
@@ -5417,7 +6408,8 @@
       "text": "Competence like yours is underrated.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 49,
@@ -5425,7 +6417,8 @@
       "text": "Congratulations! You are on your way.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 50,
@@ -5433,7 +6426,8 @@
       "text": "Could I get some directions to your heart?",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 51,
@@ -5441,7 +6435,8 @@
       "text": "Courtesy begins in the home.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 52,
@@ -5449,7 +6444,8 @@
       "text": "Courtesy is contagious.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 53,
@@ -5457,7 +6453,8 @@
       "text": "Curiosity kills boredom. Nothing can kill curiosity.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 54,
@@ -5465,7 +6462,8 @@
       "text": "Dedicate yourself with a calm mind to the task at hand.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 55,
@@ -5473,7 +6471,8 @@
       "text": "Depart not from the path which fate has you assigned.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 56,
@@ -5481,7 +6480,8 @@
       "text": "Determination is what you need now.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 57,
@@ -5489,7 +6489,8 @@
       "text": "Diligence and modesty can raise your social status.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 58,
@@ -5497,7 +6498,8 @@
       "text": "Disbelief destroys the magic.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 59,
@@ -5505,7 +6507,8 @@
       "text": "Distance yourself from the vain.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 60,
@@ -5513,7 +6516,8 @@
       "text": "Do not be intimidated by the eloquence of others.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 61,
@@ -5521,7 +6525,8 @@
       "text": "Do not demand for someone’s soul if you already got his heart.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 62,
@@ -5529,7 +6534,8 @@
       "text": "Do not let ambitions overshadow small success.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 63,
@@ -5537,7 +6543,8 @@
       "text": "Do not make extra work for yourself.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 64,
@@ -5545,7 +6552,8 @@
       "text": "Do not underestimate yourself. Human beings have unlimited potentials.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 65,
@@ -5553,7 +6561,8 @@
       "text": "Do you know that the busiest person has the largest amount of time?",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 66,
@@ -5561,7 +6570,8 @@
       "text": "Don’t be discouraged, because every wrong attempt discarded is another step forward.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 67,
@@ -5569,7 +6579,8 @@
       "text": "Don’t confuse recklessness with confidence.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 68,
@@ -5577,7 +6588,8 @@
       "text": "Don’t just spend time. Invest it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 69,
@@ -5585,7 +6597,8 @@
       "text": "Don’t just think, act!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 70,
@@ -5593,7 +6606,8 @@
       "text": "Don’t let friends impose on you, work calmly and silently.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 71,
@@ -5601,7 +6615,8 @@
       "text": "Don’t let the past and useless detail choke your existence.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 72,
@@ -5609,7 +6624,8 @@
       "text": "Don’t let your limitations overshadow your talents.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 73,
@@ -5617,7 +6633,8 @@
       "text": "Don’t worry; prosperity will knock on your door soon.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 74,
@@ -5625,7 +6642,8 @@
       "text": "Each day, compel yourself to do something you would rather not do.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 75,
@@ -5633,7 +6651,8 @@
       "text": "Education is the ability to meet life’s situations.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 76,
@@ -5641,7 +6660,8 @@
       "text": "Embrace this love relationship you have!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 77,
@@ -5649,7 +6669,8 @@
       "text": "Emulate what you admire in your parents.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 78,
@@ -5657,7 +6678,8 @@
       "text": "Emulate what you respect in your friends.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 79,
@@ -5665,7 +6687,8 @@
       "text": "Every flower blooms in its own sweet time.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 80,
@@ -5673,7 +6696,8 @@
       "text": "Every wise man started out by asking many questions.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 81,
@@ -5681,7 +6705,8 @@
       "text": "Everyday in your life is a special occasion.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 82,
@@ -5689,7 +6714,8 @@
       "text": "Everywhere you choose to go, friendly faces will greet you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 83,
@@ -5697,7 +6723,8 @@
       "text": "Expect much of yourself and little of others.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 84,
@@ -5705,7 +6732,8 @@
       "text": "Failure is the chance to do better next time.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 85,
@@ -5713,7 +6741,8 @@
       "text": "Failure is the path of lease persistence.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 86,
@@ -5721,7 +6750,8 @@
       "text": "Fear and desire – two sides of the same coin.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 87,
@@ -5729,7 +6759,8 @@
       "text": "Fearless courage is the foundation of victory.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 88,
@@ -5737,7 +6768,8 @@
       "text": "Feeding a cow with roses does not get extra appreciation.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 89,
@@ -5745,7 +6777,8 @@
       "text": "First think of what you want to do; then do what you have to do.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 90,
@@ -5753,7 +6786,8 @@
       "text": "Follow the middle path. Neither extreme will make you happy.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 91,
@@ -5761,7 +6795,8 @@
       "text": "For hate is never conquered by hate. Hate is conquered by love.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 92,
@@ -5769,7 +6804,8 @@
       "text": "For the things we have to learn before we can do them, we learn by doing them.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 93,
@@ -5777,7 +6813,8 @@
       "text": "Fortune Not Found: Abort, Retry, Ignore?",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 94,
@@ -5785,7 +6822,8 @@
       "text": "From listening comes wisdom and from speaking repentance.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 95,
@@ -5793,7 +6831,8 @@
       "text": "From now on your kindness will lead you to success.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 96,
@@ -5801,7 +6840,8 @@
       "text": "Get your mind set – confidence will lead you on.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 97,
@@ -5809,7 +6849,8 @@
       "text": "Get your mind set…confidence will lead you on.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 98,
@@ -5817,7 +6858,8 @@
       "text": "Go for the gold today! You’ll be the champion of whatever.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 99,
@@ -5825,7 +6867,8 @@
       "text": "Go take a rest; you deserve it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 100,
@@ -5833,7 +6876,8 @@
       "text": "Good news will be brought to you by mail.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 101,
@@ -5841,7 +6885,8 @@
       "text": "Good news will come to you by mail.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 102,
@@ -5849,7 +6894,8 @@
       "text": "Good to begin well, better to end well.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 103,
@@ -5857,7 +6903,8 @@
       "text": "Happiness begins with facing life with a smile and a wink.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 104,
@@ -5865,7 +6912,8 @@
       "text": "Happiness will bring you good luck.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 105,
@@ -5873,7 +6921,8 @@
       "text": "Happy life is just in front of you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 106,
@@ -5881,7 +6930,8 @@
       "text": "Hard words break no bones, fine words butter no parsnips.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 107,
@@ -5889,7 +6939,8 @@
       "text": "Have a beautiful day.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 108,
@@ -5897,7 +6948,8 @@
       "text": "He who expects no gratitude shall never be disappointed.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 109,
@@ -5905,7 +6957,8 @@
       "text": "He who knows he has enough is rich.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 110,
@@ -5913,7 +6966,8 @@
       "text": "He who knows others is wise. He who knows himself is enlightened.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 111,
@@ -5921,7 +6975,8 @@
       "text": "Help! I’m being held prisoner in a chinese bakery!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 112,
@@ -5929,7 +6984,8 @@
       "text": "How many of you believe in psycho-kinesis? Raise my hand.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 113,
@@ -5937,7 +6993,8 @@
       "text": "How you look depends on where you go.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 114,
@@ -5945,7 +7002,8 @@
       "text": "I learn by going where I have to go.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 115,
@@ -5953,7 +7011,8 @@
       "text": "If a true sense of value is to be yours it must come through service.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 116,
@@ -5961,7 +7020,8 @@
       "text": "If certainty were truth, we would never be wrong.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 117,
@@ -5969,7 +7029,8 @@
       "text": "If you continually give, you will continually have.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 118,
@@ -5977,7 +7038,8 @@
       "text": "If you look in the right places, you can find some good offerings.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 119,
@@ -5985,7 +7047,8 @@
       "text": "If you think you can do a thing or think you can’t do a thing, you’re right.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 120,
@@ -5993,7 +7056,8 @@
       "text": "If you wish to see the best in others, show the best of yourself.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 121,
@@ -6001,7 +7065,8 @@
       "text": "If your desires are not extravagant, they will be granted.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 122,
@@ -6009,7 +7074,8 @@
       "text": "If your desires are not too extravagant, they will be granted.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 123,
@@ -6017,7 +7083,8 @@
       "text": "If you’re feeling down, try throwing yourself into your work.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 124,
@@ -6025,7 +7092,8 @@
       "text": "Imagination rules the world.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 125,
@@ -6033,7 +7101,8 @@
       "text": "In order to take, one must first give.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 126,
@@ -6041,7 +7110,8 @@
       "text": "In the end all things will be known.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 127,
@@ -6049,15 +7119,17 @@
       "text": "In this world of contradiction, It’s better to be merry than wise.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 128,
       "content_id": 128,
-      "text": "It could be better, but its [sic] good enough.",
+      "text": "It could be better, but it's good enough.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 129,
@@ -6065,7 +7137,8 @@
       "text": "It is better to be an optimist and proven a fool than to be a pessimist and be proven right.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 130,
@@ -6073,7 +7146,8 @@
       "text": "It is better to deal with problems before they arise.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 131,
@@ -6081,7 +7155,8 @@
       "text": "It is honorable to stand up for what is right, however unpopular it seems.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 132,
@@ -6089,7 +7164,8 @@
       "text": "It is worth reviewing some old lessons.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 133,
@@ -6097,7 +7173,8 @@
       "text": "It takes courage to admit fault.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 134,
@@ -6105,7 +7182,8 @@
       "text": "It’s not the amount of time you devote, but what you devote to the time that counts.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 135,
@@ -6113,7 +7191,8 @@
       "text": "It’s time to get moving. Your spirits will lift accordingly",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 136,
@@ -6121,7 +7200,8 @@
       "text": "Keep your face to the sunshine and you will never see shadows.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 137,
@@ -6129,7 +7209,8 @@
       "text": "Let the world be filled with tranquility and goodwill.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 138,
@@ -6137,7 +7218,8 @@
       "text": "Like the river flow into the sea. Something are just meant to be.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 139,
@@ -6145,7 +7227,8 @@
       "text": "Listen not to vain words of empty tongue.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 140,
@@ -6153,7 +7236,8 @@
       "text": "Listen to everyone. Ideas come from everywhere.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 141,
@@ -6161,7 +7245,8 @@
       "text": "Living with a commitment to excellence shall take you far.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 142,
@@ -6169,7 +7254,8 @@
       "text": "Long life is in store for you",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 143,
@@ -6177,7 +7263,8 @@
       "text": "Love is a warm fire to keep the soul warm.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 144,
@@ -6185,7 +7272,8 @@
       "text": "Love is like sweet medicine, good to the last drop.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 145,
@@ -6193,7 +7281,8 @@
       "text": "Love lights up the world.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 146,
@@ -6201,7 +7290,8 @@
       "text": "Love truth, but pardon error.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 147,
@@ -6209,7 +7299,8 @@
       "text": "Man is born to live and not prepared to live.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 148,
@@ -6217,7 +7308,8 @@
       "text": "The human mind, once stretched by a new idea, never regains it’s original dimensions.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 149,
@@ -6225,7 +7317,8 @@
       "text": "Many will travel to hear you speak.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 150,
@@ -6233,7 +7326,8 @@
       "text": "Meditation with an old enemy is advised.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 151,
@@ -6241,7 +7335,8 @@
       "text": "Miles are covered one step at a time.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 152,
@@ -6249,7 +7344,8 @@
       "text": "Nature, time and patience are the three great physicians.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 153,
@@ -6257,7 +7353,8 @@
       "text": "Never fear! The end of something marks the start of something new.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 154,
@@ -6265,7 +7362,8 @@
       "text": "New ideas could be profitable.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 155,
@@ -6273,7 +7371,8 @@
       "text": "New people will bring you new realizations, especially about big issues.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 156,
@@ -6281,7 +7380,8 @@
       "text": "No one can walk backwards into the future.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 157,
@@ -6289,7 +7389,8 @@
       "text": "Nothing is more difficult, and therefore more precious, than to be able to decide.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 158,
@@ -6297,7 +7398,8 @@
       "text": "Now is a good time to buy stock.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 159,
@@ -6305,7 +7407,8 @@
       "text": "Now is the time to go ahead and pursue that love interest!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 160,
@@ -6313,7 +7416,8 @@
       "text": "Now is the time to try something new",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 161,
@@ -6321,7 +7425,8 @@
       "text": "Observe all men, but most of all yourself.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 162,
@@ -6329,7 +7434,8 @@
       "text": "One can never fill another’s shoes, rather he must outgrow the old shoes.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 163,
@@ -6337,7 +7443,8 @@
       "text": "One of the first things you should look for in a problem is its positive side.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 164,
@@ -6345,7 +7452,8 @@
       "text": "Others can help you now.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 165,
@@ -6353,15 +7461,17 @@
       "text": "Pennies from heaven find their way to your doorstep this year!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 166,
       "content_id": 166,
-      "text": "People are attracted by your Delicate [sic] features.",
+      "text": "People are attracted by your delicate features.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 167,
@@ -6369,7 +7479,8 @@
       "text": "People find it difficult to resist your persuasive manner.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 168,
@@ -6377,7 +7488,8 @@
       "text": "Perhaps you’ve been focusing too much on saving.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 169,
@@ -6385,7 +7497,8 @@
       "text": "Physical activity will dramatically improve your outlook today.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 170,
@@ -6393,7 +7506,8 @@
       "text": "Pick battles big enough to matter, small enough to win.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 171,
@@ -6401,7 +7515,8 @@
       "text": "Place special emphasis on old friendship.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 172,
@@ -6409,7 +7524,8 @@
       "text": "Po Says: Pandas like eating bamboo, but I prefer mine dipped in chocolate.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 173,
@@ -6417,7 +7533,8 @@
       "text": "Practice makes perfect.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 174,
@@ -6425,7 +7542,8 @@
       "text": "Protective measures will prevent costly disasters.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 175,
@@ -6433,7 +7551,8 @@
       "text": "Put your mind into planning today. Look into the future.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 176,
@@ -6441,7 +7560,8 @@
       "text": "Remember the birthday but never the age.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 177,
@@ -6449,7 +7569,8 @@
       "text": "Remember to share good fortune as well as bad with your friends.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 178,
@@ -6457,7 +7578,8 @@
       "text": "Rest has a peaceful effect on your physical and emotional health.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 179,
@@ -6465,7 +7587,8 @@
       "text": "Resting well is as important as working hard.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 180,
@@ -6473,7 +7596,8 @@
       "text": "Romance moves you in a new direction.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 181,
@@ -6481,7 +7605,8 @@
       "text": "Savor your freedom – it is precious.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 182,
@@ -6489,7 +7614,8 @@
       "text": "Say hello to others. You will have a happier day.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 183,
@@ -6497,7 +7623,8 @@
       "text": "Self-knowledge is a life long process.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 184,
@@ -6505,7 +7632,8 @@
       "text": "Share your joys and sorrows with your family.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 185,
@@ -6513,7 +7641,8 @@
       "text": "Sift through your past to get a better idea of the present.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 186,
@@ -6521,7 +7650,8 @@
       "text": "Sloth makes all things difficult; industry all easy.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 187,
@@ -6529,7 +7659,8 @@
       "text": "Small confidences mark the onset of a friendship.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 188,
@@ -6537,7 +7668,8 @@
       "text": "Society prepares the crime; the criminal commits it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 189,
@@ -6545,7 +7677,8 @@
       "text": "Someone you care about seeks reconciliation.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 190,
@@ -6553,7 +7686,8 @@
       "text": "Soon life will become more interesting.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 191,
@@ -6561,7 +7695,8 @@
       "text": "Stand tall. Don’t look down upon yourself.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 192,
@@ -6569,7 +7704,8 @@
       "text": "Staying close to home is going to be best for your morale today",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 193,
@@ -6577,7 +7713,8 @@
       "text": "Stop searching forever, happiness is just next to you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 194,
@@ -6585,7 +7722,8 @@
       "text": "Strong reasons make strong actions.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 195,
@@ -6593,7 +7731,8 @@
       "text": "Success is a journey, not a destination.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 196,
@@ -6601,7 +7740,8 @@
       "text": "Success is failure turned inside out.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 197,
@@ -6609,7 +7749,8 @@
       "text": "Success is going from failure to failure without loss of enthusiasm.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 198,
@@ -6617,7 +7758,8 @@
       "text": "Swimming is easy. Stay afloat is hard.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 199,
@@ -6625,7 +7767,8 @@
       "text": "Take care and sensitivity you show towards others will return to you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 200,
@@ -6633,7 +7776,8 @@
       "text": "Take the high road.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 201,
@@ -6641,7 +7785,8 @@
       "text": "Technology is the art of arranging the world so we do not notice it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 202,
@@ -6649,7 +7794,8 @@
       "text": "The austerity you see around you covers the richness of life like a veil.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 203,
@@ -6657,7 +7803,8 @@
       "text": "The best prediction of future is the past.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 204,
@@ -6665,7 +7812,8 @@
       "text": "The change you started already have far-reaching effects. Be ready.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 205,
@@ -6673,7 +7821,8 @@
       "text": "The first man gets the oyster, the second man gets the shell.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 206,
@@ -6681,7 +7830,8 @@
       "text": "The greatest achievement in life is to stand up again after falling.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 207,
@@ -6689,7 +7839,8 @@
       "text": "The harder you work, the luckier you get.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 208,
@@ -6697,7 +7848,8 @@
       "text": "The night life is for you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 209,
@@ -6705,7 +7857,8 @@
       "text": "The one that recognizes the illusion does not act as if it is real.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 210,
@@ -6713,7 +7866,8 @@
       "text": "The only people who never fail are those who never try.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 211,
@@ -6721,7 +7875,8 @@
       "text": "The person who will not stand for something will fall for anything.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 212,
@@ -6729,7 +7884,8 @@
       "text": "The philosophy of one century is the common sense of the next.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 213,
@@ -6737,7 +7893,8 @@
       "text": "The saints are the sinners who keep on trying.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 214,
@@ -6745,7 +7902,8 @@
       "text": "The secret to good friends is no secret to you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 215,
@@ -6753,7 +7911,8 @@
       "text": "The small courtesies sweeten life, the greater ennoble it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 216,
@@ -6761,7 +7920,8 @@
       "text": "The smart thing to do is to begin trusting your intuitions.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 217,
@@ -6769,7 +7929,8 @@
       "text": "The strong person understands how to withstand substantial loss.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 218,
@@ -6777,7 +7938,8 @@
       "text": "The sure way to predict the future is to invent it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 219,
@@ -6785,7 +7947,8 @@
       "text": "The truly generous share, even with the undeserving.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 220,
@@ -6793,7 +7956,8 @@
       "text": "The value lies not within any particular thing, but in the desire placed on that thing.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 221,
@@ -6801,7 +7965,8 @@
       "text": "The weather is wonderful.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 222,
@@ -6809,7 +7974,8 @@
       "text": "There is no mistake so great as that of being always right.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 223,
@@ -6817,7 +7983,8 @@
       "text": "There is no wisdom greater than kindness.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 224,
@@ -6825,7 +7992,8 @@
       "text": "There is not greater pleasure than seeing your lived (sic) ones prosper.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 225,
@@ -6833,7 +8001,8 @@
       "text": "There’s no such thing as an ordinary cat.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 226,
@@ -6841,7 +8010,8 @@
       "text": "Things don’t just happen; they happen just.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 227,
@@ -6849,7 +8019,8 @@
       "text": "Those who care will make the effort.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 228,
@@ -6857,7 +8028,8 @@
       "text": "Time and patience are called for many surprises await you!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 229,
@@ -6865,7 +8037,8 @@
       "text": "Time is precious, but truth is more precious than time",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 230,
@@ -6873,7 +8046,8 @@
       "text": "To know oneself, one should assert oneself.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 231,
@@ -6881,7 +8055,8 @@
       "text": "To the world you may be one person, but to one person you may be the world.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 232,
@@ -6889,7 +8064,8 @@
       "text": "Today is the conserve yourself, as things just won’t budge.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 233,
@@ -6897,7 +8073,8 @@
       "text": "Today, your mouth might be moving but no one is listening.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 234,
@@ -6905,7 +8082,8 @@
       "text": "Tonight you will be blinded by passion.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 235,
@@ -6913,7 +8091,8 @@
       "text": "Use your eloquence where it will do the most good.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 236,
@@ -6921,7 +8100,8 @@
       "text": "We first make our habits, and then our habits make us.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 237,
@@ -6929,7 +8109,8 @@
       "text": "Welcome change.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 238,
@@ -6937,7 +8118,8 @@
       "text": "“Welcome” is a powerful word.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 239,
@@ -6945,7 +8127,8 @@
       "text": "Well done is better than well said.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 240,
@@ -6953,7 +8136,8 @@
       "text": "What’s hidden in an empty box?",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 241,
@@ -6961,7 +8145,8 @@
       "text": "What’s yours in mine, and what’s mine is mine.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 242,
@@ -6969,7 +8154,8 @@
       "text": "When more become too much. It’s same as being not enough.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 243,
@@ -6977,7 +8163,8 @@
       "text": "When your heart is pure, your mind is clear.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 244,
@@ -6985,7 +8172,8 @@
       "text": "Wish you happiness.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 245,
@@ -6993,7 +8181,8 @@
       "text": "With age comes wisdom.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 246,
@@ -7001,7 +8190,8 @@
       "text": "Your adventure could lead to happiness.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 247,
@@ -7009,7 +8199,8 @@
       "text": "You always bring others happiness.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 248,
@@ -7017,7 +8208,8 @@
       "text": "You are a person of another time.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 249,
@@ -7025,7 +8217,8 @@
       "text": "You are a talented storyteller.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 250,
@@ -7033,7 +8226,8 @@
       "text": "You are admired by everyone for your talent and ability.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 251,
@@ -7041,7 +8235,8 @@
       "text": "You are almost there.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 252,
@@ -7049,7 +8244,8 @@
       "text": "You are busy, but you are happy.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 253,
@@ -7057,7 +8253,8 @@
       "text": "You are generous to an extreme and always think of the other fellow.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 254,
@@ -7065,7 +8262,8 @@
       "text": "You are going to have some new clothes.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 255,
@@ -7073,7 +8271,8 @@
       "text": "You are in good hands this evening.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 256,
@@ -7081,7 +8280,8 @@
       "text": "You are interested in higher education, whether material or spiritual.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 257,
@@ -7089,7 +8289,8 @@
       "text": "You are modest and courteous.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 258,
@@ -7097,7 +8298,8 @@
       "text": "You are never selfish with your advice or your help.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 259,
@@ -7105,7 +8307,8 @@
       "text": "You are next in line for promotion in your firm.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 260,
@@ -7113,7 +8316,8 @@
       "text": "You are offered the dream of a lifetime. Say yes!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 261,
@@ -7121,7 +8325,8 @@
       "text": "You are open-minded and quick to make new friends.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 262,
@@ -7129,7 +8334,8 @@
       "text": "You are solid and dependable.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 263,
@@ -7137,7 +8343,8 @@
       "text": "You are soon going to change your present line of work.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 264,
@@ -7145,7 +8352,8 @@
       "text": "You are talented in many ways.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 265,
@@ -7153,7 +8361,8 @@
       "text": "You are the master of every situation.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 266,
@@ -7161,7 +8370,8 @@
       "text": "You are very expressive and positive in words, act and feeling.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 267,
@@ -7169,7 +8379,8 @@
       "text": "You are working hard.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 268,
@@ -7177,7 +8388,8 @@
       "text": "You begin to appreciate how important it is to share your personal beliefs.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 269,
@@ -7185,7 +8397,8 @@
       "text": "You can keep a secret.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 270,
@@ -7193,7 +8406,8 @@
       "text": "You can see a lot just by looking.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 271,
@@ -7201,7 +8415,8 @@
       "text": "You can’t steal second base and keep your foot on first.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 272,
@@ -7209,7 +8424,8 @@
       "text": "You desire recognition and you will find it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 273,
@@ -7217,7 +8433,8 @@
       "text": "You have a deep appreciation of the arts and music.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 274,
@@ -7225,7 +8442,8 @@
       "text": "You have a deep interest in all that is artistic.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 275,
@@ -7233,7 +8451,8 @@
       "text": "You have a friendly heart and are well admired.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 276,
@@ -7241,7 +8460,8 @@
       "text": "You have a shrewd knack for spotting insincerity.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 277,
@@ -7249,7 +8469,8 @@
       "text": "You have a yearning for perfection.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 278,
@@ -7257,7 +8478,8 @@
       "text": "You have an active mind and a keen imagination.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 279,
@@ -7265,7 +8487,8 @@
       "text": "You have an ambitious nature and may make a name for yourself.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 280,
@@ -7273,7 +8496,8 @@
       "text": "You have an unusual equipment for success, use it properly.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 281,
@@ -7281,7 +8505,8 @@
       "text": "You have exceeded what was expected.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 282,
@@ -7289,7 +8514,8 @@
       "text": "You have had a good start. Work harder!",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 283,
@@ -7297,7 +8523,8 @@
       "text": "You have the power to write your own fortune.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 284,
@@ -7305,7 +8532,8 @@
       "text": "You have yearning for perfection.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 285,
@@ -7313,7 +8541,8 @@
       "text": "You know where you are going and how to get there.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 286,
@@ -7321,7 +8550,8 @@
       "text": "You look pretty.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 287,
@@ -7329,7 +8559,8 @@
       "text": "You love challenge.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 288,
@@ -7337,7 +8568,8 @@
       "text": "You love chinese food.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 289,
@@ -7345,7 +8577,8 @@
       "text": "You make people realize that there exist other beauties in the world.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 290,
@@ -7353,7 +8586,8 @@
       "text": "You never hesitate to tackle the most difficult problems.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 291,
@@ -7361,7 +8595,8 @@
       "text": "You never know who you touch.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 292,
@@ -7369,7 +8604,8 @@
       "text": "You only treasure what you lost.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 293,
@@ -7377,7 +8613,8 @@
       "text": "You seek to shield those you love and like the role of provider.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 294,
@@ -7385,7 +8622,8 @@
       "text": "You should be able to make money and hold on to it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 295,
@@ -7393,7 +8631,8 @@
       "text": "You should be able to undertake and complete anything.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 296,
@@ -7401,7 +8640,8 @@
       "text": "You should pay for this check. Be generous.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 297,
@@ -7409,7 +8649,8 @@
       "text": "You understand how to have fun with others and to enjoy your solitude.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 298,
@@ -7417,7 +8658,8 @@
       "text": "You will always be surrounded by true friends.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 299,
@@ -7425,7 +8667,8 @@
       "text": "You will always get what you want through your charm and personality.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 300,
@@ -7433,7 +8676,8 @@
       "text": "You will always have good luck in your personal affairs.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 301,
@@ -7441,7 +8685,8 @@
       "text": "You will be a great success both in the business world and society.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 302,
@@ -7449,7 +8694,8 @@
       "text": "You will be blessed with longevity.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 303,
@@ -7457,7 +8703,8 @@
       "text": "You will be pleasantly surprised tonight.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 304,
@@ -7465,7 +8712,8 @@
       "text": "You will be sharing great news with all the people you love.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 305,
@@ -7473,7 +8721,8 @@
       "text": "You will be successful in your work.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 306,
@@ -7481,7 +8730,8 @@
       "text": "You will be traveling and coming into a fortune.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 307,
@@ -7489,7 +8739,8 @@
       "text": "You will be unusually successful in business.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 308,
@@ -7497,7 +8748,8 @@
       "text": "You will become a great philanthropist in your later years.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 309,
@@ -7505,7 +8757,8 @@
       "text": "You will become more and more wealthy.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 310,
@@ -7513,7 +8766,8 @@
       "text": "You will enjoy good health.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 311,
@@ -7521,7 +8775,8 @@
       "text": "You will enjoy good health; you will be surrounded by luxury.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 312,
@@ -7529,7 +8784,8 @@
       "text": "You will find great contentment in the daily, routine activities.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 313,
@@ -7537,7 +8793,8 @@
       "text": "You will have a fine capacity for the enjoyment of life.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 314,
@@ -7545,7 +8802,8 @@
       "text": "You will have gold pieces by the bushel.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 315,
@@ -7553,7 +8811,8 @@
       "text": "You will inherit a large sum of money.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 316,
@@ -7561,7 +8820,8 @@
       "text": "You will make change for the better.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 317,
@@ -7569,7 +8829,8 @@
       "text": "You will soon be surrounded by good friends and laughter.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 318,
@@ -7577,7 +8838,8 @@
       "text": "You will take a chance in something in near future.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 319,
@@ -7585,7 +8847,8 @@
       "text": "You will travel far and wide, both pleasure and business.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 320,
@@ -7593,7 +8856,8 @@
       "text": "Your abilities are unparalleled.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 321,
@@ -7601,7 +8865,8 @@
       "text": "Your ability is appreciated.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 322,
@@ -7609,7 +8874,8 @@
       "text": "Your ability to juggle many tasks will take you far.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 323,
@@ -7617,7 +8883,8 @@
       "text": "Your biggest virtue is your modesty.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 324,
@@ -7625,7 +8892,8 @@
       "text": "Your character can be described as natural and unrestrained.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 325,
@@ -7633,7 +8901,8 @@
       "text": "Your difficulties will strengthen you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 326,
@@ -7641,7 +8910,8 @@
       "text": "Your dreams are never silly; depend on them to guide you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 327,
@@ -7649,7 +8919,8 @@
       "text": "Your dreams are worth your best efforts to achieve them.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 328,
@@ -7657,7 +8928,8 @@
       "text": "Your energy returns and you get things done.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 329,
@@ -7665,7 +8937,8 @@
       "text": "Your family is young, gifted and attractive.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 330,
@@ -7673,7 +8946,8 @@
       "text": "Your first love has never forgotten you.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 331,
@@ -7681,7 +8955,8 @@
       "text": "Your goal will be reached very soon.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 332,
@@ -7689,7 +8964,8 @@
       "text": "Your happiness is before you, not behind you! Cherish it.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 333,
@@ -7697,7 +8973,8 @@
       "text": "Your hard work will payoff today.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 334,
@@ -7705,7 +8982,8 @@
       "text": "Your heart will always make itself known through your words.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 335,
@@ -7713,7 +8991,8 @@
       "text": "Your home is the center of great love.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 336,
@@ -7721,7 +9000,8 @@
       "text": "Your ideals are well within your reach.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 337,
@@ -7729,7 +9009,8 @@
       "text": "Your infinite capacity for patience will be rewarded sooner or later.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 338,
@@ -7737,7 +9018,8 @@
       "text": "Your leadership qualities will be tested and proven.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 339,
@@ -7745,7 +9027,8 @@
       "text": "Your life will be happy and peaceful.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 340,
@@ -7753,7 +9036,8 @@
       "text": "Your life will get more and more exciting.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 341,
@@ -7761,7 +9045,8 @@
       "text": "Your love life will be happy and harmonious.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 342,
@@ -7769,7 +9054,8 @@
       "text": "Your love of music will be an important part of your life.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 343,
@@ -7777,7 +9063,8 @@
       "text": "Your loyalty is a virtue, but not when it’s wedded with blind stubbornness.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 344,
@@ -7785,7 +9072,8 @@
       "text": "Your mentality is alert, practical, and analytical.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 345,
@@ -7793,7 +9081,8 @@
       "text": "Your mind is creative, original and alert.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 346,
@@ -7801,7 +9090,8 @@
       "text": "Your mind is your greatest asset.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 347,
@@ -7809,7 +9099,8 @@
       "text": "Your moods signal a period of change.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 348,
@@ -7817,7 +9108,8 @@
       "text": "Your quick wits will get you out of a tough situation.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 349,
@@ -7825,7 +9117,8 @@
       "text": "Your reputation is your wealth.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 350,
@@ -7833,7 +9126,8 @@
       "text": "Your success will astonish everyone.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 351,
@@ -7841,7 +9135,8 @@
       "text": "Your talents will be recognized and suitably rewarded.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     },
     {
       "id": 352,
@@ -7849,46 +9144,246 @@
       "text": "Your work interests can capture the highest status or prestige.",
       "min_fortune": 0,
       "chance": 10,
-      "add_to_message_build": false
+      "add_to_message_build": false,
+      "wisom": null
     }
   ],
   "Quotes": [
     {
       "id": 0,
-      "text": "fdsa",
-      "author": "vcxz"
+      "text": "To achieve greatness one should live as if they will never die.",
+      "author": "Francois de La Rochefoucauld",
+      "rarity": 0
+    },
+    {
+      "id": 1,
+      "text": "People do not decide to become extraordinary. They decide to accomplish extraordinary things.",
+      "author": "Edmund Hillary",
+      "rarity": 0
+    },
+    {
+      "id": 2,
+      "text": "Desire, burning desire, is basic to achieving anything beyond the ordinary.",
+      "author": "Joseph B. Wirthlin",
+      "rarity": 0
+    },
+    {
+      "id": 3,
+      "text": "Mediocrity will never do. You are capable of something better.",
+      "author": "Gordon B. Hinckley",
+      "rarity": 0
+    },
+    {
+      "id": 4,
+      "text": "Always do your best. What you plant now, you will harvest later.",
+      "author": "Og Mandino",
+      "rarity": 0
+    },
+    {
+      "id": 5,
+      "text": "Big dreams create the magic that stir men’s souls to greatness.",
+      "author": "Bill McCartney",
+      "rarity": 0
+    },
+    {
+      "id": 6,
+      "text": "If we cannot see the possibility of greatness, how can we dream it?",
+      "author": "Lee Strasberg",
+      "rarity": 0
+    },
+    {
+      "id": 7,
+      "text": "Whatever the mind of man can conceive and believe, it can achieve.",
+      "author": "Napoleon Hill",
+      "rarity": 0
+    },
+    {
+      "id": 8,
+      "text": "When you have had a taste of excellence, you cannot go back to mediocrity.",
+      "author": "Maximillian Degenerez",
+      "rarity": 0
+    },
+    {
+      "id": 9,
+      "text": "No man is truly great who is great only in his lifetime. The test of greatness is the page of history.",
+      "author": "William Hazlitt",
+      "rarity": 0
+    },
+    {
+      "id": 10,
+      "text": "You must be the change you wish to see in the world.",
+      "author": "Gandhi",
+      "rarity": 0
+    },
+    {
+      "id": 11,
+      "text": "Love is a verb. Love — the feeling — is a fruit of love, the verb.",
+      "author": "Stephen Covey",
+      "rarity": 0
+    },
+    {
+      "id": 12,
+      "text": "Life is really simple, but we insist on making it complicated.",
+      "author": "Confucius",
+      "rarity": 0
+    },
+    {
+      "id": 13,
+      "text": "If you don’t like something, change it. If you can’t change it, change the way you think about it.",
+      "author": "Mary Engelbreit",
+      "rarity": 0
+    },
+    {
+      "id": 14,
+      "text": "In seeking happiness for others, you will find it in yourself.",
+      "author": "Unknown",
+      "rarity": 0
+    },
+    {
+      "id": 15,
+      "text": "Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present.",
+      "author": "Bill Keane",
+      "rarity": 0
+    },
+    {
+      "id": 16,
+      "text": "Most people do not listen with the intent to understand; they listen with the intent to reply.",
+      "author": "Stephen Covey",
+      "rarity": 0
     }
   ],
-  "MessageBuilder_Config": [
+  "Bingo_Casinos": [
     {
-      "id": null,
-      "text": "A faithful friend is a strong defense.",
-      "moves": 10,
-      "use_moves": false
+      "id": 0,
+      "name": "Ruby Dome",
+      "active": true,
+      "level_required": 1,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,2,3,4",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
     },
     {
-      "id": null,
-      "text": "A fresh start will put you on your way.",
-      "moves": null,
-      "use_moves": null
+      "id": 1,
+      "name": "Emerald Dream",
+      "active": true,
+      "level_required": 3,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,2,4,6",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
     },
     {
-      "id": null,
-      "text": "A good time to finish up old tasks.",
-      "moves": null,
-      "use_moves": null
+      "id": 2,
+      "name": "Golden Gate",
+      "active": true,
+      "level_required": 7,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,4,8,10",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
     },
     {
-      "id": null,
-      "text": "A lifetime friend shall soon be made.",
-      "moves": null,
-      "use_moves": null
+      "id": 3,
+      "name": "Amber",
+      "active": true,
+      "level_required": 10,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,10,13,16",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
     },
     {
-      "id": null,
-      "text": "A lifetime of happiness lies ahead of you.",
-      "moves": null,
-      "use_moves": null
+      "id": 4,
+      "name": "Crystal",
+      "active": true,
+      "level_required": 15,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,10,15,18",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
+    },
+    {
+      "id": 5,
+      "name": "Sapphire",
+      "active": true,
+      "level_required": 18,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,12,15,20",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
+    },
+    {
+      "id": 6,
+      "name": "Amethyst Quill",
+      "active": true,
+      "level_required": 20,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,15,18,22",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
+    },
+    {
+      "id": 7,
+      "name": "Glacier",
+      "active": false,
+      "level_required": 23,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,15,20,25",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
+    },
+    {
+      "id": 8,
+      "name": "Coral",
+      "active": false,
+      "level_required": 27,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,20,22,26",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
+    },
+    {
+      "id": 9,
+      "name": "Paradise Allure",
+      "active": false,
+      "level_required": 35,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,30,40,50",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
+    },
+    {
+      "id": 10,
+      "name": "Test",
+      "active": false,
+      "level_required": 35,
+      "rewards_multiplier": 0.5,
+      "rewards_per_bingo": "0-5,14-5,5-5",
+      "bets_type": "integer",
+      "bets": "0,30,40,50",
+      "background_image_path": "res://Assets/UI/background3.png",
+      "background_reward_commodity_id": null
     }
   ],
   "Minigames_Rewards": [
@@ -7956,5 +9451,12 @@
       "max_value": 8
     }
   ],
-  "WhatsNewMessages": []
+  "WhatsNewMessages": [
+    {
+      "id": 0,
+      "build_version": "2.3.0",
+      "text_date": "28 June 2021",
+      "text": "New:\n-> Settings page added.\n-> What's New pop up added.\n-> Force Update pop up added.\n-> Bingo minigame introduced\n\nGeneral Changes\n-> Quality of Life improvements."
+    }
+  ]
 }

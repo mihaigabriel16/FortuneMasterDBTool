@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Control.gd" type="Script" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -8,25 +10,32 @@ anchor_bottom = 1.0
 script = ExtResource( 1 )
 
 [node name="Panel" type="Panel" parent="."]
-margin_right = 1042.0
-margin_bottom = 623.0
+margin_right = 1024.0
+margin_bottom = 600.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Button" type="Button" parent="Panel"]
-margin_left = 37.6182
-margin_top = 475.243
-margin_right = 259.618
-margin_bottom = 587.243
+margin_left = 10.0
+margin_top = 540.0
+margin_right = 240.0
+margin_bottom = 590.0
 text = "Publish Changes to PROD"
 
 [node name="Button3" type="Button" parent="Panel"]
-margin_left = 275.206
-margin_top = 473.828
-margin_right = 497.206
-margin_bottom = 585.828
+margin_left = 250.0
+margin_top = 540.0
+margin_right = 480.0
+margin_bottom = 590.0
 text = "Publish Changes to DEV"
+
+[node name="Button4" type="Button" parent="Panel"]
+margin_left = 779.802
+margin_top = 336.834
+margin_right = 1009.8
+margin_bottom = 386.834
+text = "Get Users List"
 
 [node name="Button2" type="Button" parent="Panel"]
 margin_left = 751.796
@@ -35,11 +44,32 @@ margin_right = 973.796
 margin_bottom = 577.343
 text = "Delete Data from PROD"
 
+[node name="Tree" type="Tree" parent="Panel"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 260.0
+margin_bottom = 160.0
+
 [node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
-margin_left = 74.0
-margin_top = 27.0
-margin_right = 931.0
-margin_bottom = 439.0
+margin_left = 270.0
+margin_top = 10.0
+margin_right = 1014.0
+margin_bottom = 160.0
+custom_styles/normal = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel"]
+margin_left = 270.0
+margin_top = 170.0
+margin_right = 1014.0
+margin_bottom = 320.0
+custom_styles/normal = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Panel/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Panel/Button4" to="." method="_on_Button4_pressed"]
 [connection signal="pressed" from="Panel/Button2" to="." method="_on_Button2_pressed"]
