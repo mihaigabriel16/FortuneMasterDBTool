@@ -1,6 +1,15 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Control.gd" type="Script" id=1]
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.607843, 0.196078, 0.196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.509804, 0.0980392, 0.0980392, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.607843, 0.196078, 0.196078, 1 )
 
 [sub_resource type="StyleBoxFlat" id=1]
 
@@ -21,14 +30,24 @@ margin_left = 10.0
 margin_top = 540.0
 margin_right = 240.0
 margin_bottom = 590.0
-text = "Publish Changes to PROD"
+custom_styles/hover = SubResource( 3 )
+custom_styles/pressed = SubResource( 4 )
+custom_styles/normal = SubResource( 2 )
+text = "Push to Prod"
 
 [node name="Button3" type="Button" parent="Panel"]
 margin_left = 250.0
 margin_top = 540.0
 margin_right = 480.0
 margin_bottom = 590.0
-text = "Publish Changes to DEV"
+text = "Push to Dev"
+
+[node name="Button5" type="Button" parent="Panel"]
+margin_left = 490.0
+margin_top = 540.0
+margin_right = 720.0
+margin_bottom = 590.0
+text = "Push to Staging"
 
 [node name="Button4" type="Button" parent="Panel"]
 margin_left = 779.802
@@ -38,11 +57,11 @@ margin_bottom = 386.834
 text = "Get Users List"
 
 [node name="Button2" type="Button" parent="Panel"]
-margin_left = 751.796
-margin_top = 465.343
-margin_right = 973.796
-margin_bottom = 577.343
-text = "Delete Data from PROD"
+margin_left = 10.0
+margin_top = 480.0
+margin_right = 240.0
+margin_bottom = 530.0
+text = "Retrieve PROD Data"
 
 [node name="Tree" type="Tree" parent="Panel"]
 margin_left = 10.0
@@ -71,5 +90,6 @@ __meta__ = {
 }
 [connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Panel/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Panel/Button5" to="." method="_on_Button3_pressed"]
 [connection signal="pressed" from="Panel/Button4" to="." method="_on_Button4_pressed"]
 [connection signal="pressed" from="Panel/Button2" to="." method="_on_Button2_pressed"]

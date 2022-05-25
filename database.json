@@ -43,7 +43,7 @@
     {
       "id": 8,
       "config": "development_mode",
-      "value_prod": true
+      "value_prod": false
     },
     {
       "id": 9,
@@ -313,7 +313,7 @@
     {
       "id": 62,
       "config": "boosts_enabled",
-      "value_prod": true
+      "value_prod": false
     },
     {
       "id": 63,
@@ -348,7 +348,7 @@
     {
       "id": 69,
       "config": "bingo_number_of_calls",
-      "value_prod": 40
+      "value_prod": 60
     },
     {
       "id": 70,
@@ -2710,6 +2710,51 @@
       "sku_id": "com.cookie.low",
       "env_id": 0,
       "active": false,
+      "is_consumable": true,
+      "badge_id": 0,
+      "watch_ad": false
+    },
+    {
+      "id": 16,
+      "name": "Milk",
+      "tab_id": 0,
+      "commodity_id": 21,
+      "value": 10,
+      "price_point": 5,
+      "currency_id": 0,
+      "sku_id": null,
+      "env_id": 0,
+      "active": true,
+      "is_consumable": true,
+      "badge_id": 0,
+      "watch_ad": false
+    },
+    {
+      "id": 17,
+      "name": "Flour",
+      "tab_id": 0,
+      "commodity_id": 22,
+      "value": 10,
+      "price_point": 5,
+      "currency_id": 0,
+      "sku_id": null,
+      "env_id": 0,
+      "active": true,
+      "is_consumable": true,
+      "badge_id": 0,
+      "watch_ad": false
+    },
+    {
+      "id": 18,
+      "name": "Chocolate",
+      "tab_id": 0,
+      "commodity_id": 23,
+      "value": 10,
+      "price_point": 5,
+      "currency_id": 0,
+      "sku_id": null,
+      "env_id": 0,
+      "active": true,
       "is_consumable": true,
       "badge_id": 0,
       "watch_ad": false
